@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.review{
+   width: 100%;
+   height: 90vh;
+   background-color: rgb(194, 120, 246);
+   margin: 3rem 0;
+}
+
+.review h2{
+    text-transform: uppercase;
+    color: rgb(240, 14, 14);
+    text-align: center;
+    padding: 1rem 0;
+    word-spacing: 0.5rem;
+    font-size: 2.2rem;
+}
+
+.review h5{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(91, 89, 89);
+    padding-bottom: 8rem;
+}
+
+.review .reviewData{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review .reviewData .reviewBox{
+    text-align: center;
+    width: 25%;
+    justify-content: space-around;
+    height: 15rem;
+    background-color: #fff;
+    margin-left: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.35rem;
+    box-shadow: 0 0 2rem 0 #000;
+}
+
+.review .reviewData .reviewBox .reviewImg{
+    width: 7rem;
+    border-radius: 3.5rem;
+    
+}
+
+.review .reviewData .reviewBox h3{
+    color: rgb(240, 14, 14);
+    padding: 0.3rem 0;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.review .reviewData .reviewBox p{
+    color: rgb(42, 41, 41);
+    padding-bottom: 0.3rem;
+}
+
+
+.review .reviewData .reviewBox .rating i{
+    color: rgb(240, 14, 14);
+}
+
+
+
+

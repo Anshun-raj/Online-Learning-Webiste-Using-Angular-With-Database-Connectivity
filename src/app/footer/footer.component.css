@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(34, 179, 237);
+}
+
+.footer h3{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer span{
+    color: red;
+}

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.about{
+    margin: 3rem 0;
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(194, 120, 246);
+}
+
+.about h2{
+    text-transform: uppercase;
+    color: rgb(240, 14, 14);
+    text-align: center;
+    padding: 1rem 0;
+    word-spacing: 0.5rem;
+    font-size: 2.2rem;
+}
+
+.about h5{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(91, 89, 89);
+}
+
+.about .aboutData{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 3.5rem;
+}
+
+.about .aboutData .aboutLeft{
+    width: 50%;
+    padding-top: 9rem;
+}
+
+.about .aboutData .aboutLeft h3{
+    font-size: 2rem;
+    color:rgb(240, 14, 14);
+    padding-bottom: 1rem;
+}
+
+.about .aboutData .aboutLeft p{
+    color: rgb(68, 66, 66);
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.about .aboutData .aboutLeft .aboutBtn{
+    background-color: rgb(149, 0, 255);
+    padding: 0.7rem 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1.2rem;
+    font-weight: 500;
+    transition: 0.5s all;
+}
+
+.about .aboutData .aboutLeft a:hover{
+    background-color: rgb(238, 53, 53);
+}
+
+.about .aboutData .aboutRight{
+    width: 50%;
+}
+
+.about .aboutData .aboutRight .aboutImg{
+    width: 35rem;
+    margin: 1rem 6rem;
+}
+
+

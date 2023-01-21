@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.course{
+   width: 100%;
+   height: 90vh;
+   background-color: rgb(194, 120, 246);
+   margin: 3rem 0;
+}
+
+.course h2{
+    text-transform: uppercase;
+    color: rgb(240, 14, 14);
+    text-align: center;
+    padding: 1rem 0;
+    word-spacing: 0.5rem;
+    font-size: 2.2rem;
+  
+}
+
+.course h5{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(91, 89, 89);
+}
+
+.course .courseData{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course .courseData .courseBox{
+    width: 22rem;
+    height: 12rem;
+    box-shadow: 0 0 2rem 0 #000;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.course .courseData .courseBox i{
+    font-size: 3rem;
+    padding: 1rem;
+    color: rgb(240, 14, 14);
+}
+
+.course .courseData .courseBox h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.course .courseData .courseBox p{
+    font-size: 1.4;
+    font-weight: 500;
+}

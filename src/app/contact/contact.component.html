@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <h5>We Love Conversation, Lets Talk</h5>
+         <div class="contactData">
+            <div class="contactLeft">
+              <img src="../assets/images/contact-img.svg" class="courseImg"/>
+            </div>
+            <div class="contactRight">
+               <form class="form-group" (ngSubmit)="onSubmit()" #userform="ngForm">
+                    <input type="text" name="name"  placeholder="Enter your name" class="form-control" [(ngModel)]="userModel.name"><br/>
+                    <input type="text" name="email" placeholder="Enter your email" class="form-control" [(ngModel)]="userModel.email"><br/>
+                    <input type="text" name="number" placeholder="Number" class="form-control" [(ngModel)]="userModel.number"><br/>
+                    <textarea name="text"  placeholder="Message" class="form-control" [(ngModel)]="userModel.text"></textarea>
+                    <button type="submit" class="submitBtn">Submit</button>
+               </form>
+            </div>
+         </div>
+       </div>
+</body>
+</html>
